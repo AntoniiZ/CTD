@@ -1,0 +1,51 @@
+body {
+    background-image: url(background.jpg);
+}
+
+.container a:link {
+    text-decoration: none;
+}
+
+.container .img {
+    width: 150;
+    height: 150;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.container .jumbotron {
+    margin: 10px 0px;
+    background-color: rgba(26, 48, 88, 0.47);
+}
+
+.container .footer {
+    margin: 40px 0px;
+    width: 98%;
+}
+
+.container .pages {
+    margin-bottom: -40px;
+}
+
+.container .pages p {
+    -webkit-user-select: none;
+    display: inline-block;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.47);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+.container .pages p:hover {
+    background-color: rgba(255, 128, 0, 0.47);
+}
+
+.container .pages p:active {
+    background-color: rgba(255, 255, 255, 0.47);
+}
